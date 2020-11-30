@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Tentang Kami </title>
+        <link rel="stylesheet" href="aset/main.css">
+    </head>
+
+    <body>
+        <!-- navigasi -->
+        <nav>
+            <img src="aset/img/logo.png">
+            <div class="link">
+                <a href="index.html">Beranda</a>
+                <a href="page-tentang.html">Tentang Kami</a>
+                <a href="page-berita.html">Berita</a>
+                <a href="page-jelajah.html">Jelajah</a>
+            </div>
+            <button class="btnKontak"> Hubungi Kami </button>
+        </nav>
+
+        <div class="modalBg">
+            <div class="modal">
+                <h3> Masukan data diri anda untuk menghubungi kami </h3>
+                <span id="cancelBtn"> x </span>
+                <form action="" class="formModal" id="formModal">
+                    <div class="formRow">
+                        <label for="nama"> Nama lengkap </label>
+                        <input type="text" name="nama" id="nama">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <div class="formRow">
+                        <label for="email"> Email </label>
+                        <input type="email" name="email" id="email">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <div class="formRow">
+                        <label for="noTelepon"> Nomor telepon </label>
+                        <input type="text" name="noTelepon" id="noTelepon">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <button type="submit"> Hubungi Kami</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <main id="tentang-kami">
+            <h1>Tentang Kami</h1>
+            <img src="aset/img/banner.png">
+            <p>
+                <b>Sejak Presiden Joko Widodo-Jusuf Kalla dilantik,</b> boleh dikata industri pariwisata mendapatkan perhatian khusus. Melalui Nawa Cita, sektor pariwisata ditetapkanmenjadi salah satu sektor prioritas pembangunan nasional. Sektor ini diharapkan bisa jadi leading sector dan sekaligus mampu menggerakkan sektor industri lainnya.
+            <br>
+                <i>Data Kemenetrian Pariwisata 2018 menunjukkan,</i> sejak 2013 sektor pariwisata menempati posisi keempat setelah minyak dan gas bumi, batubara, serta kelapa sawit sebagai penghasil devisa negara. Presiden Joko Widodo telah memberikan arahan untuk memajukan 10 destinasi wisata nasional. Sering disebut sebagai “10 Bali Baru Indonesia”.
+            <br>
+                <u>Selain gencar mendorong deregulasi untuk mempermudah investasi dan proses izin usaha,</u> pemerintahpun gencar membangun infrastruktur di sana-sini. Baik untuk memperbaiki kualitas infrastruktur di lokasi destinasi wisata maupun koneksitas antarkawasan di Indonesia.
+            <br>
+                Juga tak kalah pentingnya ialah mengimplementasikan kebijakan Kawasan Ekonomi Khusus di sektor pariwisata. Empat daerah telah ditetapkan pemerintah sebagai KEK Pariwisata, yakni KEK Mandalika, KEK Morotai, KEK Tanjung Lesung, dan KEK Tanjung Kelayang.
+            <br>
+                Bagaimana potretnya selama ini dan bagaimana proyeksinya nanti? Rasa-rasanya cukup signifikan. Tren kunjungan wisatawan mancanegara ke Indonesia sepanjang Pemerintahan Jokowi tercatat cukup tinggi.
+            <br>
+                Dari data Kementerian Pariwisata, mencatat pada 2014 jumlah wisatawan mancanegara sebanyak 9,4 juta. Maka setahun pemerintahan Jokowi, angka kunjungan naik sebesar 1 juta. Pada 2015 tercatat 10,4 juta. Tahun 2016 tercatat 11,5 juta. Tahun 2017 naik cukup signifikan menjadi 14,03 juta. Dan tahun 2018 tercatat sebanyak 15,8 juta.
+            <br>
+                Masih dari sumber yang sama, per Januari 2019 tercatat 1.158.162 tamu mancanegara berkunjung ke Indonesia. Ada kenaikan kisaran 58 ribu lebih dibandingkan bulan yang sama pada 2018, yang tercatat sebanyak 1.100.677 orang.
+                Mengambil slogan “Wonderful Indonesia”, sektor ini juga digeber sebegitu rupa menggunakan konsepsi branding yang piawai. Pemerintah sengaja menghelat beberapa even bergengsi di tingkat dunia sebagai langkah strategi yang tampaknya sangat jitu.
+            <br>
+                Sebutlah Asian Games 2018 dan Asian Para Games 2018, misalnya. Atau, masih di tahun yang sama, Indonesia mengambil momen perhelatan Pertemuan Tahunan IMF-Bank Dunia sebagai fasilitator MICE (Meeting, Incentive, Convention, and Exhibition).
+                Tak hendak bekerja setengah hati. Di tahun ini Indonesia bahkan juga bermaksud mengambil posisi fasilitator pada event kejuaraan balap motor paling bergengsi sedunia. Even MotoGP Tahun 2021. Mengambil model sirkuit jalanan, pembangunan sirkuit berlokasi di KEK Pariwisata Mandalika dimulai pada Oktober tahun ini.
+            </p>
+        </main>
+
+        <!-- Footer -->
+        <main class="footer">
+            <div class="wrapper-footer">
+                <div class="col-logo">
+                    <img src="aset/img/logo-kementrian.svg">
+                    <img src="aset/img/logo.png" alt="">
+                </div>
+                <div class="col-subscribe">
+                    <h4> Ingin mendapatkan informasi terbaru pariwisata Indonesia ? </h4>
+                    <form id="formSubs" action="">
+                        <input id="emailSubs" type="text" placeholder="Masukan Email">
+                        <button type="submit"> Subscribe ! </button>
+                        <span id="textValidate"></span>
+                    </form>
+                </div>
+            </div>
+        
+            <p>&copy; 2020 Design By Fadhilah</p>
+        </main>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Berita </title>
+        <link rel="stylesheet" href="aset/main.css">
+    </head>
+
+    <body>
+        <!-- Navigasi -->
+        <nav>
+            <img src="aset/img/logo.png">
+            <div class="link">
+                <a href="index.html">Beranda</a>
+                <a href="page-tentang.html">Tentang Kami</a>
+                <a href="page-berita.html">Berita</a>
+                <a href="page-jelajah.html">Jelajah</a>
+            </div>
+            <button class="btnKontak"> Hubungi Kami </button>
+        </nav>
+
+        <div class="modalBg">
+            <div class="modal">
+                <h3> Masukan data diri anda untuk menghubungi kami </h3>
+                <span id="cancelBtn"> x </span>
+                <form action="" class="formModal" id="formModal">
+                    <div class="formRow">
+                        <label for="nama"> Nama lengkap </label>
+                        <input type="text" name="nama" id="nama">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <div class="formRow">
+                        <label for="email"> Email </label>
+                        <input type="email" name="email" id="email">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <div class="formRow">
+                        <label for="noTelepon"> Nomor telepon </label>
+                        <input type="text" name="noTelepon" id="noTelepon">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <button type="submit"> Hubungi Kami </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <main id="berita">
+            <h1> Berita Seputar Indonesia </h1>
+            <div class="container-berita">
+                <div class="col-side">
+                    <img src="aset/img/iklan.jpg" alt="">
+                </div>
+                <div class="col-berita">
+                    <a href="page-soon.html">
+                    <img src="aset/img/berita1.jpeg">
+                    <p> Menteri Wishnutama Mengkampanyekan #InDonesiaCARE di Bintan Kepri</p>
+                    </a>
+                </div>
+                <div class="col-berita">
+                    <a href="page-soon.html">
+                    <img src="aset/img/berita2.jpg">
+                    <p> Presiden Jokowi Memantau Pembangunan Sarana dan Prasarana yang berada di NTT</p>
+                    </a>
+                </div>
+                <div class="col-berita">
+                    <a href="page-soon.html">
+                    <img src="aset/img/berita3.jpg">
+                    <p> Disiplin Pakai Masker, Jangan Kendor !</p>
+                    </a>
+                </div>
+                <div class="col-berita">
+                    <a href="page-soon.html">
+                    <img src="aset/img/berita4.jpg">
+                    <p> Menteri Wishnutama: 30 Hotem di DKI Jakarta, Siap !</p>
+                    </a>
+                </div>
+            </div>
+
+            <a id="btn-berita" href="page-soon.html"> Lihat lainnya</a>
+        </main>
+
+        <!-- Footer -->
+        <main class="footer">
+            <div class="wrapper-footer">
+                <div class="col-logo">
+                    <img src="aset/img/logo-kementrian.svg">
+                    <img src="aset/img/logo.png" alt="">
+                </div>
+                <div class="col-subscribe">
+                    <h4> Ingin mendapatkan informasi terbaru pariwisata Indonesia ? </h4>
+                    <form id="formSubs" action="">
+                        <input id="emailSubs" type="text" placeholder="Masukan Email">
+                        <button type="submit"> Subscribe ! </button>
+                        <span id="textValidate"></span>
+                    </form>
+                </div>
+            </div>
+        
+            <p>&copy; 2020 Design By Fadhilah</p>
+        </main>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Destinasi </title>
+        <link rel="stylesheet" href="aset/main.css">
+    </head>
+    <body>
+        <!-- navigasi -->
+        <nav>
+            <img src="aset/img/logo.png">
+            <div class="link">
+                <a href="index.html">Beranda</a>
+                <a href="page-tentang.html">Tentang Kami</a>
+                <a href="page-berita.html">Berita</a>
+                <a href="page-jelajah.html">Jelajah</a>
+            </div>
+            <button class="btnKontak"> Hubungi Kami </button>
+        </nav>
+
+        <div class="modalBg">
+            <div class="modal">
+                <h3> Masukan data diri anda untuk menghubungi kami </h3>
+                <span id="cancelBtn"> x </span>
+                <form action="" class="formModal" id="formModal">
+                    <div class="formRow">
+                        <label for="nama"> Nama lengkap </label>
+                        <input type="text" name="nama" id="nama">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <div class="formRow">
+                        <label for="email"> Email </label>
+                        <input type="email" name="email" id="email">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <div class="formRow">
+                        <label for="noTelepon"> Nomor telepon </label>
+                        <input type="text" name="noTelepon" id="noTelepon">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <button type="submit"> Hubungi Kami </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Content-->
+        <main id="destinasi">
+            <h1>Alam Indonesia</h1>
+            <p> Pilih satu daerah yang anda ingin lihat keindahannya !</p>
+            <div class="container-thumbnail">
+                <img src="aset/img/penida.png" alt="">
+                <img src="aset/img/papua-barat.png" alt="">
+                <img src="aset/img/ntt.png" alt="">
+                <img src="aset/img/belitung.png" alt="">
+                <img src="aset/img/maluku.png" alt="">
+                <img src="aset/img/malang.png" alt="">
+            </div>
+
+            <a href="page-soon.html"> Lihat lebih banyak</a>
+        </main>
+
+        <!-- Footer -->
+        <main class="footer">
+            <div class="wrapper-footer">
+                <div class="col-logo">
+                    <img src="aset/img/logo-kementrian.svg">
+                    <img src="aset/img/logo.png" alt="">
+                </div>
+                <div class="col-subscribe">
+                    <h4> Ingin mendapatkan informasi terbaru pariwisata Indonesia ? </h4>
+                    <form id="formSubs" action="">
+                        <input id="emailSubs" type="text" placeholder="Masukan Email">
+                        <button type="submit"> Subscribe ! </button>
+                        <span id="textValidate"></span>
+                    </form>
+                </div>
+            </div>
+        
+            <p>&copy; 2020 Design By Fadhilah</p>
+        </main>
+        
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

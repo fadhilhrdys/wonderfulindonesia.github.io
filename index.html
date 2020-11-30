@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Pariwisata Indonesia </title>
+        <link rel="stylesheet" href="aset/main.css">
+    </head>
+
+    <body>
+
+        <!--- Hero -->
+        <section class="container-hero" id="blur">
+            <nav>
+                <img src="aset/img/logo.png">
+                <div class="link">
+                    <a href="index.html">Beranda</a>
+                    <a href="page-tentang.html">Tentang Kami</a>
+                    <a href="page-berita.html">Berita</a>
+                    <a href="page-jelajah.html">Jelajah</a>
+                </div>
+                <button class="btnKontak"> Hubungi Kami </button>
+            </nav>
+
+            <div class="modalBg">
+                <div class="modal">
+                    <h3> Masukan data diri anda untuk menghubungi kami </h3>
+                    <span id="cancelBtn"> x </span>
+                    <form action="" class="formModal" id="formModal">
+                        <div class="formRow">
+                            <label for="nama"> Nama lengkap </label>
+                            <input type="text" name="nama" id="nama">
+                            <p class="errorMsg"> Eror </p>
+                        </div>
+                        <div class="formRow">
+                            <label for="email"> Email </label>
+                            <input type="email" name="email" id="email">
+                            <p class="errorMsg"> Eror </p>
+                        </div>
+                        <div class="formRow">
+                            <label for="noTelepon"> Nomor telepon </label>
+                            <input type="text" name="noTelepon" id="noTelepon">
+                            <p class="errorMsg"> Eror </p>
+                        </div>
+                        <button id="btnSubmit" type="submit"> Hubungi Kami </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="headline">
+                <h1>indonesia</h1>
+                <p> Negara yang penuh hamparan dari pegunungan <br> sampai lautan 
+                    yang indah</p>
+            </div>
+        </section>
+
+        <!-- Perkenalan -->
+        <main class="beranda-section1">
+            <div class="text-section1">
+                <h2> Tentang Budaya di Indonesia </h2>
+                <p> Indonesia terdiri dari begitu banyak pulau. Tak hanya itu, Indonesia juga memiliki kekayaan budaya yang beragam. Kebudayaan Indonesia tentunya datang dari berbagai daerah yang sampai sekarang masih tetap dilestarikan oleh masyarakat asli di daerah tersebut.
+                <br><br>
+                Semboyan nasional Bhinekka Tunggal Ika (Kesatuan dalam Keragaman) 
+                mengacu pada komposisi beragam negara ini. Motto ini juga menunjukkan bahwa, biarpun masyarakat multikultural, ada perasaan kesatuan sejati di pikiran dan hati masyarakat Indonesia.
+                </p>
+                <img src="aset/img/timur.jpg" alt="">
+            </div>
+            <img id="img-section1" src="aset/img/bali.jpg" alt="">
+        </main>
+
+        <!-- Destinasi-->
+        <main class="beranda-section2">
+            <h2> Keindahan Alam Indonesia </h2>
+            <p> Indonesia kaya akan keindahan alam yang menakjubkan mulai dari
+                keindahan lautan sampai pegunungan yang begitu beragam, 
+                keindahan ini terbentang di suluruh penjuru Indonesia </p>
+            <div class="thumbnail">
+                <img src="aset/img/malang.png" alt="">
+                <img src="aset/img/belitung.png" alt="">
+                <img src="aset/img/penida.png" alt="">
+            </div>
+            <a href="page-destinasi.html">Lihat Keindahan Lainya</a>
+        </main>
+
+        <!-- Kuliner -->
+        <main class="beranda-section3">
+            <img src="aset/img/banner-makanan.png" alt="">
+            <div class="text-section3">
+                <h2>Lihat Kuliner Indonesia</h2>
+                <p> Kuliner Indonesia terkenal  dengan aneka rempah  - rempah dan
+                    beberapa sudah terkenal di dunia akan kelezetannya rasanya </p>
+                <a href="page-kuliner.html"> Jelajahi lebih lanjut -> </a>
+            </div>
+        </main>
+
+        <!-- Berita -->
+        <main class="beranda-section4">
+            <h2> Berita Terbaru </h2>
+            <div class="container-berita">
+                <div class="col">
+                    <a href="page-soon.html">
+                    <img src="aset/img/berita1.jpeg" alt="">
+                    <p><b>Menteri Wishnutama Mengkampanyekan #InDonesiaCARE di Bintan Kepri </b></p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="page-soon.html">
+                    <img src="aset/img/berita2.jpg" alt="">
+                    <p><b>Presiden Jokowi Memantau Pembangunan Sarana dan Prasarana yang Berada di NTT </b></p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="page-soon.html">
+                    <img src="aset/img/berita3.jpg" alt="">
+                    <p><b> Disiplin Pakai Masker, Jangan Kendor ! </b></p>
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <main class="footer">
+            <div class="wrapper-footer">
+                <div class="col-logo">
+                    <img src="aset/img/logo-kementrian.svg">
+                    <img src="aset/img/logo.png" alt="">
+                </div>
+                <div class="col-subscribe">
+                    <h4> Ingin mendapatkan informasi terbaru pariwisata Indonesia ? </h4>
+                    <form id="formSubs" action="">
+                        <input id="emailSubs" type="text" placeholder="Masukan Email">
+                        <button type="submit"> Subscribe ! </button>
+                        <span id="textValidate"></span>
+                    </form>
+                </div>
+            </div>
+        
+            <p>&copy; 2020 Design By Fadhilah</p>
+        </main>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

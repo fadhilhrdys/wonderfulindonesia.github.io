@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Kuliner Indonesia</title>
+        <link rel="stylesheet" href="aset/main.css">
+    </head>
+    <body>
+        <!-- navigasi -->
+        <nav>
+            <img src="aset/img/logo.png">
+            <div class="link">
+                <a href="index.html">Beranda</a>
+                <a href="page-tentang.html">Tentang Kami</a>
+                <a href="page-berita.html">Berita</a>
+                <a href="page-jelajah.html">Jelajah</a>
+            </div>
+            <button class="btnKontak"> Hubungi Kami </button>
+        </nav>
+
+        <div class="modalBg">
+            <div class="modal">
+                <h3> Masukan data diri anda untuk menghubungi kami </h3>
+                <span id="cancelBtn"> x </span>
+                <form action="" class="formModal" id="formModal">
+                    <div class="formRow">
+                        <label for="nama"> Nama lengkap </label>
+                        <input type="text" name="nama" id="nama">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <div class="formRow">
+                        <label for="email"> Email </label>
+                        <input type="email" name="email" id="email">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <div class="formRow">
+                        <label for="noTelepon"> Nomor telepon </label>
+                        <input type="text" name="noTelepon" id="noTelepon">
+                        <p class="errorMsg"> Eror </p>
+                    </div>
+                    <button type="submit"> Hubungi Kami </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <main id="makanan">
+            <h1> Makanan Khas Indonesia </h1>
+            <p> Lihat bagaimana makanan khas Indonesia yang kaya akan rasa</p>
+            <div class="container-list">
+                <div class="list">
+                    <img src="aset/img/gudeg.jpg" alt="">
+                        <div class="text-list">
+                        <h2> Nasi Gudeg </h2>
+                        <p> Gudeg merupakan makanan khas Indonesia yang berasal dari kota Yogyakarta</p>
+                        <a href="page-soon.html"> Lanjut baca</a>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="aset/img/nasi kuning.jpg" alt="">
+                        <div class="text-list">
+                        <h2> Nasi Kuning</h2>
+                        <p> Makanan ini di buat dengan banyak rempah - rempah sehingga rasanya sangat gurih</p>
+                        <a href="page-soon.html"> Lanjut baca</a>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="aset/img/ayam betutu.jpg" alt="">
+                        <div class="text-list">
+                        <h2> Ayam betutu </h2>
+                        <p> Makanan khas yang berasal dari pulau Bali begitu terkenal akan rasanya yang kaya</p>
+                        <a href="page-soon.html"> Lanjut baca</a>
+                    </div>
+                </div>
+            </div>
+
+            <a id="btn-lanjut" href="page-soon.html"> Lihat lebih banyak</a>
+        </main>
+
+        <!-- Footer -->
+        <main class="footer">
+            <div class="wrapper-footer">
+                <div class="col-logo">
+                    <img src="aset/img/logo-kementrian.svg">
+                    <img src="aset/img/logo.png" alt="">
+                </div>
+                <div class="col-subscribe">
+                    <h4> Ingin mendapatkan informasi terbaru pariwisata Indonesia ? </h4>
+                    <form id="formSubs" action="">
+                        <input id="emailSubs" type="text" placeholder="Masukan Email">
+                        <button type="submit"> Subscribe ! </button>
+                        <span id="textValidate"></span>
+                    </form>
+                </div>
+            </div>
+        
+            <p>&copy; 2020 Design By Fadhilah</p>
+        </main>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
